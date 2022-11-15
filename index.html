@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 
 <head>
 	<title>Sean Spiggle's Portfolio</title>
@@ -24,15 +24,15 @@
 
 		<!-- Header -->
 		<header id="header" class="">
-			<nav>
+			<nav id="navTitle">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="index.html">Projects</a></li>
-					<li><a href="index.html">Skills</a></li>
-					<li><a href="index.html">About Me</a></li>
+					<li><a href="#main">Projects</a></li>
+					<li><a href="#two">Skills</a></li>
+					<li><a href="#three">About Me</a></li>
 				</ul>
 			</nav>
-			<nav>
+			<nav id="navMenu">
 				<a href="#menu">Menu</a>
 			</nav>
 		</header>
@@ -44,7 +44,8 @@
 					<h1>Sean Spiggle's Portfolio</h1>
 				</header>
 				<div class="content">
-					<p>I am an experienced Audio-Video Programmer who is making the transition to Software Development.
+					<p>
+						I am an experienced Audio-Video Programmer who is now working on Front-End Software Development.
 					</p>
 				</div>
 			</div>
@@ -60,8 +61,10 @@
 						<img src="/images/trello_temp1.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Task Manager</a></h3>
-						<p>create a to-do list and schedule tasks</p>
+						<h3><a href="landing.html" class="link" target="_blank">Task Manager</a></h3>
+						<p>create a to-do list and schedule tasks built with REACT</p>
+						<a href="#" class="icon brands alt fa-github" target="_blank"><span
+								class="label">GitHub</span></a>
 					</header>
 				</article>
 				<article>
@@ -69,8 +72,10 @@
 						<img src="/images/financial_planner.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Finance Planner</a></h3>
-						<p>create a budget and track expenses</p>
+						<h3><a href="landing.html" class="link" target="_blank">Finance Planner</a></h3>
+						<p>create a budget and track expenses built with BOOTSTRAP & JAVASCRIPT</p>
+						<a href="#" class="icon brands alt fa-github" target="_blank"><span
+								class="label">GitHub</span></a>
 					</header>
 				</article>
 				<article>
@@ -78,8 +83,10 @@
 						<img src="/images/AV_Programming_Blog_Image.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Audio Video Programming Blog</a></h3>
-						<p>blah blah blah</p>
+						<h3><a href="landing.html" class="link" target="_blank">Audio Video Programming Blog</a></h3>
+						<p>blah blah blah built with SASS & JAVASCRIPT</p>
+						<a href="#" class="icon brands alt fa-github" target="_blank"><span
+								class="label">GitHub</span></a>
 					</header>
 				</article>
 				<article>
@@ -87,8 +94,10 @@
 						<img src="/images/crestron_temp1.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Audio-Video Programs</a></h3>
-						<p>Sample Programs for Audio Video Systems</p>
+						<h3><a href="landing.html" class="link" target="_blank">Audio-Video Programs</a></h3>
+						<p>Sample Programs for Audio Video Systems built with CSS & SIMPL WINDOWS</p>
+						<a href="#" class="icon brands alt fa-github" target="_blank"><span
+								class="label">GitHub</span></a>
 					</header>
 				</article>
 			</section>
@@ -122,13 +131,22 @@
 				</div>
 			</section>
 
-			<section id="two">
+			<section id="three">
 				<div class="inner">
 					<header class="major">
 						<h2> About Me </h2>
 					</header>
 					<p>
-
+						Hello! My name is Sean Spiggle and I am looking to begin my career in Front-End Software
+						Development.
+						I am an Audio-Video Programmer, who has programmed full-stack applications for
+						Theaters, Classrooms, and Multi-Purpose Spaces.
+						I have thoroughly enjoyed this career, but am looking to advance my career by focusing more on
+						software development.
+						I am extremely dedicated in producing a quality finished product on any project I am working on.
+						I am constantly learning and pushing myself to grow as a professional; I will never be fully
+						satisfied with with my current knowledge.
+						I know I will provide a hard-working, dedicated employee and teammate to whomever I work with.
 					</p>
 				</div>
 			</section>
@@ -160,29 +178,11 @@
 					</form>
 				</section>
 				<section class="split">
-					<section>
-						<div class="contact-method">
-							<span class="icon solid alt fa-envelope"></span>
-							<h3>Email</h3>
-							<a href="#">information@untitled.tld</a>
-						</div>
-					</section>
-					<section>
-						<div class="contact-method">
-							<span class="icon solid alt fa-phone"></span>
-							<h3>Phone</h3>
-							<span>(000) 000-0000 x12387</span>
-						</div>
-					</section>
-					<section>
-						<div class="contact-method">
-							<span class="icon solid alt fa-home"></span>
-							<h3>Address</h3>
-							<span>1234 Somewhere Road #5432<br />
-								Nashville, TN 00000<br />
-								United States of America</span>
-						</div>
-					</section>
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
+						</li>
+					</ul>
 				</section>
 			</div>
 		</section>
@@ -190,10 +190,7 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="inner">
-				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-				</ul>
+
 				<ul class="copyright">
 					<li>&copy; Untitled</li>
 					<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>

@@ -72,6 +72,24 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+#header #navMenu {
+	display: none;
+}
+
+@media screen and (max-width: 585px) {
+
+	#header #navMenu {
+		display: inline-flex;
+	}
+
+	#header #navTitle {
+		display: none;
+	}
+}
+
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1779,22 +1797,20 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		padding: 1em;
+		color: rgb(4, 168, 168);
+		text-align: center;
+	}
+
+	#one header.major {
+		background-color: rgba(255, 255, 255, 0.65);
+		border-radius: 20px;
 	}
 
 		header.major > :first-child {
 			margin-bottom: 0;
 			width: calc(100% + 0.5em);
 		}
-
-			header.major > :first-child:after {
-				content: '';
-				background-color: transparent;
-				display: block;
-				height: 2px;
-				margin: 0.325em 0 0.5em 0;
-				width: 100%;
-			}
 
 		header.major > p {
 			font-size: 0.7em;
@@ -2747,7 +2763,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
+		align-items: flex-end;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2756,7 +2772,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease;
 		-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease;
 		transition: transform 0.25s ease, opacity 0.25s ease, filter 1s ease, -webkit-filter 1s ease;
-		padding: 4em 4em 2em 4em ;
+		padding: 4em 4em 2em 4em;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2777,6 +2793,7 @@ input, select, textarea {
 			position: relative;
 			z-index: 3;
 		}
+
 
 		.tiles article h3 {
 			font-size: 1.75em;
@@ -2845,28 +2862,28 @@ input, select, textarea {
 		}
 
 		.tiles article:nth-child(6n - 5):before {
-			background-color: rgba(0, 0, 0, 0.99);
+			background-color: rgba(75, 75, 75, 0.99);
 		}
 		.tiles article:nth-child(6n - 5):after {
 			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.tiles article:nth-child(6n - 4):before {
-			background-color: rgba(0, 0, 0, 0.99);
+			background-color: rgba(75, 75, 75, 0.99);
 		}
 		.tiles article:nth-child(6n - 4):after {
 			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.tiles article:nth-child(6n - 3):before {
-			background-color: rgba(0, 0, 0, 0.99);
+			background-color: rgba(75, 75, 75, 0.99);
 		}
 		.tiles article:nth-child(6n - 3):after {
 			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.tiles article:nth-child(6n - 2):before {
-			background-color: rgba(0, 0, 0, 0.99);
+			background-color: rgba(75, 75, 75, 0.99);
 		}
 		.tiles article:nth-child(6n - 2):after {
 			background-color: rgba(0, 0, 0, 0);
@@ -3186,7 +3203,7 @@ input, select, textarea {
 			-moz-justify-content: -moz-flex-end;
 			-webkit-justify-content: -webkit-flex-end;
 			-ms-justify-content: -ms-flex-end;
-			justify-content: right;
+			justify-content: center;
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -3305,7 +3322,6 @@ input, select, textarea {
 				#header nav a[href="#menu"]:last-child {
 					padding-right: 4.25em !important;
 				}
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3317,7 +3333,6 @@ input, select, textarea {
 				#header nav a[href="#menu"]:last-child {
 					padding-right: 4.5em !important;
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {
