@@ -10,12 +10,7 @@ Initially created used the Forty by HTML5UP template, but has been heavily modif
 Additionally, FormSubmit.co is used to handle the contact form and will route that to message email address.
 The site domain name was purchased from get.tech and hosting is provided by hostgator.com. 
 
-Sections of the website are detailed below: 
-1. Home
-2. Projects
-3. Skills
-4. About Me
-5. Contact Me
+![portfolio_1](https://user-images.githubusercontent.com/110023169/203011742-25c0d2f7-67c2-4abe-9149-777495b46a13.jpg)
 
 
 Future Updates/Considerations: 
