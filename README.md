@@ -14,10 +14,10 @@ The site domain name was purchased from get.tech and hosting is provided by host
 
 
 Future Updates/Considerations: 
-1. I'm not 100% sold on the Teal color (could potentially change to some shade of blue).
+1. I need to adjust the information on the portfolio site. Change Front-End to Full-Stack and fix up my About Me.
 2. I want to incorporate a dark mode button.
 3. Could provide an animated video on project list. When one hovers over project it will show a video of it demonstrating the project. 
-4. Ultimately, want to re-build this without the template to remove a large portion of unused code. 
+4. Ultimately, want to re-build this without the template to remove a large portion of unused code. (Use ReactJS)
 
 Credits:
         Forty by HTML5 UP | html5up.net
