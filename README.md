@@ -1,34 +1,30 @@
 # Portfolio
 
 My Portfolio Webpage
+https://seanspiggle.tech
 
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+BUILT WITH: HTML, SCSS, JavaScript (using Forty by HTML5UP template).
 
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
+This site was created in order to host my personal projects, detail out relevant information, and provide a contact form. 
+Initially created used the Forty by HTML5UP template, but has been heavily modified to meet necessary needs. 
+Additionally, FormSubmit.co is used to handle the contact form and will route that to message email address.
+The site domain name was purchased from get.tech and hosting is provided by hostgator.com. 
 
-Demo images\* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+![portfolio_1](https://user-images.githubusercontent.com/110023169/203011742-25c0d2f7-67c2-4abe-9149-777495b46a13.jpg)
 
-(\* = not included)
 
-AJ
-aj@lkn.io | @ajlkn
+Future Updates/Considerations: 
+1. I need to adjust the information on the portfolio site. Change Front-End to Full-Stack and fix up my About Me.
+2. I want to incorporate a dark mode button.
+3. Could provide an animated video on project list. When one hovers over project it will show a video of it demonstrating the project. 
+4. Ultimately, want to re-build this without the template to remove a large portion of unused code. (Use ReactJS)
 
 Credits:
-
-    Demo Images:
-    	Unsplash (unsplash.com)
-
-    Icons:
-    	Font Awesome (fontawesome.io)
-
-    Other:
+        Forty by HTML5 UP | html5up.net
+        Tech Domains
+        HostGator 
+        FormSubmit 
+        AJ | aj@lkn.io | @ajlkn
     	jQuery (jquery.com)
     	Scrollex (github.com/ajlkn/jquery.scrollex)
     	Responsive Tools (github.com/ajlkn/responsive-tools)
